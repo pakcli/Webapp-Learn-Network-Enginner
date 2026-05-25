@@ -1,0 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #fafbfc;
+  color: #222;
+}
+table { border-collapse: collapse; width: 100%; margin: 2rem 0; }
+th, td { border: 1px solid #eee; padding: 8px; }
