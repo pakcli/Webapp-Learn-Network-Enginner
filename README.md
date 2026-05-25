@@ -26,16 +26,16 @@
 
 ## 📊 Competitive Advantage
 
-| Feature | NetBox | Ansible | Packet Tracer | **Network SOT** |
-|---------|--------|---------|---------------|----------------|
-| Port-level IP management | ✅ | ❌ | ❌ | ✅ |
-| Editable inline table | Partial | ❌ | ❌ | ✅ |
-| Cascading confirmation | ❌ | ❌ | ❌ | ✅ |
-| CLI generator | ❌ | ✅ | ❌ | ✅ |
-| Lightweight/Offline | ❌ | ❌ | ✅ | ✅ |
-| Git-native format | ❌ | ✅ | ❌ | ✅ |
-| Learning-focused | ❌ | ❌ | ✅ | ✅ |
-| Free | ✅ | ✅ | Partial | ✅ |
+| Feature                  | NetBox | Ansible | Packet Tracer | GNS3 | **Network SOT** |
+|-------------------------|--------|---------|---------------|------|----------------|
+| Port-level IP management | ✅     | ❌      | ❌            | ✅   | ✅             |
+| Editable inline table    | Partial| ❌      | ❌            | ❌   | ✅             |
+| Cascading confirmation  | ❌     | ❌      | ❌            | ❌   | ✅             |
+| CLI generator           | ❌     | ✅      | ❌            | ✅   | ✅             |
+| Lightweight/Offline     | ❌     | ❌      | ✅            | ❌   | ✅             |
+| Git-native format       | ❌     | ✅      | ❌            | ❌   | ✅             |
+| Learning-focused        | ❌     | ❌      | ✅            | ✅   | ✅             |
+| Free                    | ✅     | ✅      | Partial       | ✅   | ✅             |
 
 ---
 
@@ -69,14 +69,14 @@ npm run dev
 ### First Lab (5 minutes)
 
 1. Open app
-2. Click **"+ Add Device"**
+2. Click "+ Add Device"
 3. Create devices: `R1` (router), `SW1` (switch), `PC1` (client)
 4. Edit table:
    - R1.Gi0/0: 192.168.1.1/24
    - SW1.Gi0/0: connected to R1.Gi0/0
    - PC1.Gi0/0: 192.168.1.10/24 (gateway: 192.168.1.1)
-5. Click **"Generate CLI"** → Copy to Packet Tracer
-6. Click **"Export Vault"** → Commit to GitHub
+5. Click "Generate CLI" → Copy to Packet Tracer
+6. Click "Export Vault" → Commit to GitHub
 
 ---
 
